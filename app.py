@@ -736,7 +736,7 @@ class MarketPairs(tk.Frame):
                     for i in reversed(range(10)):
                         amount5 = round(float(self.buy_coin_button5.get()), i)
                         try:
-                            buy_order = client.create_test_order(symbol=symbol, side='buy', type='LIMIT',
+                            buy_order = client.create_order(symbol=symbol, side='buy', type='LIMIT',
                                                                  price=entered_price,
                                                                  quantity=amount5,
                                                                  timeInForce="GTC")
@@ -832,7 +832,7 @@ class MarketPairs(tk.Frame):
                     for i in reversed(range(10)):
                         amount5 = round(float(self.sell_coin_button5.get()), i)
                         try:
-                            sell_order = client.create_test_order(symbol=symbol, side='sell', type='LIMIT',
+                            sell_order = client.create_order(symbol=symbol, side='sell', type='LIMIT',
                                                                  price=entered_price,
                                                                  quantity=amount5,
                                                                  timeInForce="GTC")
