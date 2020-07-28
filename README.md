@@ -4,12 +4,13 @@ Mastermind is a gui for buying, selling and analysing cryptocurreny.
 ![Image of Dark Mode on Mastermind](https://github.com/Modiodal/Mastermind/blob/master/screenshots/dark_mode_graph.png)
 
 
-
 ## How it works
 
 1. Go to binance and create an API key
 2. Enter API key and API secrect into Login Page
 3. Enjoy an all in one platform for all things crypto.
+
+![Mastermind Login Page](https://github.com/Modiodal/Mastermind/blob/master/screenshots/login_screenshot.png)
 
 
 ## Plugins and Presets
