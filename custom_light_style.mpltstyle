@@ -1,0 +1,61 @@
+text.color : (0.2,0.2,0.2)
+
+
+# AXES
+
+
+# axes.facecolor:  (0.980, 0.980, 0.980)
+axes.titlecolor:  black
+axes.titlesize : 15
+axes.labelsize : 15
+axes.edgecolor : white #Normalized RGB colours (from 0 to 1 instead of 0 to 255)
+# axes.labelcolor : red
+axes.linewidth : 0.8
+axes.spines.top : False
+axes.spines.right : True
+axes.spines.bottom : True
+axes.spines.left : False
+
+
+# GRID
+axes.grid : True
+grid.alpha : 0.7
+grid.linestyle : --
+grid.linewidth : 0.6
+
+
+# LINES
+axes.prop_cycle : cycler('color', [ 'ebc634', 'a31212', 'ff33d6']) #hex colours
+lines.linewidth : 2
+lines.markeredgewidth : 0.0
+
+
+# SCATTER PLOT
+scatter.marker : .
+
+
+# TICKS
+xtick.labelsize : 10
+xtick.color : (0.2,0.2,0.2)
+xtick.direction : out
+ytick.labelsize : 11
+ytick.color : (0.2,0.2,0.2)
+ytick.direction : out
+ytick.labelleft : False
+ytick.labelright : True
+ytick.left: False
+ytick.right: True
+
+
+
+# FIGURE
+#### DO NOT ADD FACECOLOR UNTIL DARK_MODE ON OR OFF
+####figure.facecolor:  green
+
+
+figure.figsize:  7, 5
+figure.autolayout: True
+# figure.constrained_layout.use: True
+# figure.constrained_layout.h_pad:  0.04167  # Padding around axes objects. Float representing
+# figure.constrained_layout.w_pad:  0.04167  # inches. Default is 3./72. inches (3 pts)
+
