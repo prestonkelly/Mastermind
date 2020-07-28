@@ -23,7 +23,6 @@ import webbrowser
 def popupmsg(msg):
     popup = tk.Tk()
     popup.wm_title("!")
-    # popup.geometry('350x150')
     windowWidth = popup.winfo_reqwidth()
     windowHeight = popup.winfo_reqheight()
     positionRight = int(popup.winfo_screenwidth() / 2 - windowWidth / 2)
@@ -39,7 +38,6 @@ def popupmsg(msg):
 
 
 class LoginPage:
-
     def __init__(self, master):
         global client
         self.master = master
@@ -55,8 +53,6 @@ class LoginPage:
         self.db.close()
 
 
-        ### Currently only works for LoginPage
-        # self.master.resizable(width=False, height=False)
         self.top_label = tk.Label(self.master, text='Please sign in!', padx=10, pady=10)
         self.api_key_label = tk.Label(self.master, text='Api Key: ', padx=7, pady=10)
         self.api_key_entry = ttk.Entry(self.master, width=30)
@@ -97,7 +93,6 @@ class LoginPage:
         self.master.withdraw()
         self.newWindow = tk.Toplevel(self.master)
         bb = MainApplication(self.newWindow)
-
 
 
     def add_keys(self):
@@ -145,10 +140,7 @@ class Header(tk.Frame):
         tk.Frame.__init__(self, parent, *args, **kwargs)
         self.parent = parent
         self.frame1 = tk.LabelFrame(self.parent)
-
-        ### Might have to this as a constant... along with the initial symbol
         self.testing_data = client.get_ticker(symbol=symbol)
-
         self.last_price_header = tk.Label(self.frame1, text='Last Price')
         self.change_header = tk.Label(self.frame1, text='24h Change')
         self.high_price_header = tk.Label(self.frame1, text='24h High')
@@ -176,7 +168,6 @@ class Header(tk.Frame):
 
 
     def update_header_info(self):
-        # CONNECTION ISSUE IS CAUSED BY THE FACT WE ARE CALLING TESTING_DATA TWICE ^
         testing_data = client.get_ticker(symbol=symbol)
         if float(testing_data['lastPrice']) > 1:
             self.last_price_data['text'] = round(float(testing_data['lastPrice']), 4)
@@ -246,9 +237,6 @@ class Controls(tk.Frame):
             self.list_of_change += [watchlist_change]
             watchlist_vol = '{:,.0f}'.format(round(float(self.watch_list_list[i]['volume']), 0) / 1000)
             self.list_of_vol += [watchlist_vol]
-
-
-
 
 
         # Graph controls
@@ -417,7 +405,6 @@ class Controls(tk.Frame):
             webbrowser.open_new(weblink)
 
 
-
     def layout(self):
         self.parent.grid()
         self.main_frame.grid(row=1, column=0)
@@ -474,7 +461,7 @@ class GraphContainer(tk.Frame):
             'US/Eastern').dt.strftime(datetime_format)
         animate_df['EMA7'] = animate_df['Close'].ewm(span=7, adjust=False).mean()
         animate_df['SMA7'] = animate_df['Close'].rolling(7).mean()
-        # ---------------------------KEEP THIS -- IT WORKS----------------------------------
+        # Reload graph
         self.a.clear()
         animate_df.plot(x='Close Time', y='Close', ax=self.a)
         animate_df.plot(x='Close Time', y='EMA7', ax=self.a)
@@ -484,7 +471,6 @@ class GraphContainer(tk.Frame):
 
 
     def start(self):
-        # Set up plot to call animate() function periodically
         self.ani = animation.FuncAnimation(self.fig, self.animate, interval=6000)
         plt.show()
 
