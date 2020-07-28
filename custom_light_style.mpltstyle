@@ -2,14 +2,10 @@ text.color : (0.2,0.2,0.2)
 
 
 # AXES
-
-
-# axes.facecolor:  (0.980, 0.980, 0.980)
 axes.titlecolor:  black
 axes.titlesize : 15
 axes.labelsize : 15
-axes.edgecolor : white #Normalized RGB colours (from 0 to 1 instead of 0 to 255)
-# axes.labelcolor : red
+axes.edgecolor : white
 axes.linewidth : 0.8
 axes.spines.top : False
 axes.spines.right : True
@@ -25,7 +21,7 @@ grid.linewidth : 0.6
 
 
 # LINES
-axes.prop_cycle : cycler('color', [ 'ebc634', 'a31212', 'ff33d6']) #hex colours
+axes.prop_cycle : cycler('color', [ 'ebc634', 'a31212', 'ff33d6'])
 lines.linewidth : 2
 lines.markeredgewidth : 0.0
 
@@ -49,13 +45,6 @@ ytick.right: True
 
 
 # FIGURE
-#### DO NOT ADD FACECOLOR UNTIL DARK_MODE ON OR OFF
-####figure.facecolor:  green
-
-
 figure.figsize:  7, 5
 figure.autolayout: True
-# figure.constrained_layout.use: True
-# figure.constrained_layout.h_pad:  0.04167  # Padding around axes objects. Float representing
-# figure.constrained_layout.w_pad:  0.04167  # inches. Default is 3./72. inches (3 pts)
 
