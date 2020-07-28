@@ -12,7 +12,12 @@ Mastermind is a gui for buying, selling and analysing cryptocurreny.
 
 Built using [Sam McHardy's](https://github.com/sammchardy) python-binance
 
+[Python Binance's website](https://python-binance.readthedocs.io/en/latest/overview.html)
 
+[Python Binance's source code](https://github.com/sammchardy/python-binance)
+
+
+### Presets
 - Graph initially set to show 1-hour of data
 - Initial coin is 'BTCUSDT'
 
