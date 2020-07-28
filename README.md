@@ -1,2 +1,2 @@
-# Trading-Gui
-Binance Trading App built using Python's Tkinter
+# Mastermind
+Mastermind is a gui for buying, selling and analysing cryptocurreny. 
