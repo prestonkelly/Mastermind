@@ -44,14 +44,11 @@ class LoginPage:
         self.frame = tk.Frame(self.master)
         self.master.configure(padx=60, pady=20)
 
-
-
         self.db = sqlite3.connect('UserKeys.db')
         self.cur = self.db.cursor()
         self.cur.execute('CREATE TABLE IF NOT EXISTS keys (api_key text, api_secret text)')
         self.db.commit()
         self.db.close()
-
 
         self.top_label = tk.Label(self.master, text='Please sign in!', padx=10, pady=10)
         self.api_key_label = tk.Label(self.master, text='Api Key: ', padx=7, pady=10)
@@ -62,7 +59,6 @@ class LoginPage:
         self.remember_checkmark = tk.Checkbutton(self.master, text='Remember me', pady=10, variable=self.var)
         self.submit_butt = tk.Button(self.master, text='Submit', width=10, padx=7, pady=5, relief='groove',
                                      command=lambda: [self.add_keys(), self.new_window()])
-
 
         self.db = sqlite3.connect('UserKeys.db')
         self.cur = self.db.cursor()
