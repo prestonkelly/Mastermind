@@ -1,4 +1,4 @@
-# ![Mastermind Icon](https://github.com/Modiodal/Mastermind/blob/master/screenshots/favicon_header.png) Mastermind
+# Mastermind ![Mastermind Icon](https://github.com/Modiodal/Mastermind/blob/master/screenshots/favicon_header.png)
 **Mastermind** is a gui for buying, selling and analysing cryptocurreny. 
 
 ![Image of Dark Mode on Mastermind](https://github.com/Modiodal/Mastermind/blob/master/screenshots/dark_mode_app.png)
