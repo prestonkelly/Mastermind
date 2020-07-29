@@ -8,7 +8,6 @@
   <img src="./screenshots/mastermind_showcase.gif" alt="Gif of Mastermind"/>
 </p>
 
-> *Dark Mode* in Mastermind
 
 ## How it works
 
