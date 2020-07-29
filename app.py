@@ -94,6 +94,7 @@ class LoginPage:
         self.master.withdraw()
         self.newWindow = tk.Toplevel(self.master)
         self.newWindow.protocol("WM_DELETE_WINDOW", self.exit_app)
+        self.newWindow.resizable(width=False, height=False)
         bb = MainApplication(self.newWindow)
 
 
