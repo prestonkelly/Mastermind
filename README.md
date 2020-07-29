@@ -19,21 +19,23 @@
 ![Mastermind Login Page](https://github.com/Modiodal/Mastermind/blob/master/screenshots/login_screenshot.png)
 
 
-## Plugins and Presets
+## Credits
 
 ### Built using [Sam McHardy's](https://github.com/sammchardy) python-binance
 
-*Source code*
+*Source code: *
    https://github.com/sammchardy/python-binance
    
 *Documentation*
    https://python-binance.readthedocs.io/en/latest/
 
 
-Built on Python **3.7.7**
 
-### Presets
+
+## Plugins and Presets
+- Built on Python **3.7.7**
 - Graph initially set to show 1-hour of data
 - Initial coin is 'BTCUSDT'
+
 
 
