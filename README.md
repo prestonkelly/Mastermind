@@ -4,12 +4,9 @@
 - Simple and straightforward
 - Supports **BTC**, **ETH** and **USDT** markets
 
-
-
 <p align="center">
   <img src="./screenshots/mastermind_showcase.gif" alt="Gif of Mastermind"/>
 </p>
-
 
 > *Dark Mode* in Mastermind
 
@@ -23,7 +20,11 @@
 3. Enter API key and API secrect into Login Page (see below)
 4. Enjoy an all in one platform for all things trading crypto!
 
-![Mastermind Login Page](https://github.com/Modiodal/Mastermind/blob/master/screenshots/login_screenshot.png)
+
+
+<p align="center">
+  <img src="./screenshots/login_screenshot.png" alt="Mastermind Login Page"/>
+</p>
 
 
 ## Credits
