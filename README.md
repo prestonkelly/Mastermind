@@ -1,7 +1,7 @@
 # Mastermind
 **Mastermind** is a gui for buying, selling and analysing cryptocurreny. 
 
-![Image of Dark Mode on Mastermind](https://github.com/Modiodal/Mastermind/blob/master/screenshots/dark_mode.png)
+![Image of Dark Mode on Mastermind](https://github.com/Modiodal/Mastermind/blob/master/screenshots/dark_mode_graph.png)
 > *Dark Mode* in Mastermind
 
 ## How it works
