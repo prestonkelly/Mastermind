@@ -21,9 +21,12 @@
 
 Built using [Sam McHardy's](https://github.com/sammchardy) python-binance
 
-[python-binance's website](https://python-binance.readthedocs.io/en/latest/overview.html) 
+*Source code*
+   - https://github.com/sammchardy/python-binance
+   
+*Documentation*
+   - https://python-binance.readthedocs.io/en/latest/
 
-[python-binance's source code](https://github.com/sammchardy/python-binance)
 
 Built on Python 3.7.7
 
