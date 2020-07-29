@@ -1,4 +1,4 @@
-# Mastermind
+# ![Mastermind Icon](https://github.com/Modiodal/Mastermind/blob/master/screenshots/favicon_header.png) Mastermind
 **Mastermind** is a gui for buying, selling and analysing cryptocurreny. 
 
 ![Image of Dark Mode on Mastermind](https://github.com/Modiodal/Mastermind/blob/master/screenshots/dark_mode_app.png)
@@ -12,23 +12,23 @@
    - Make sure you checkmark "**Enable Trading**" and "**Read Only**"
    - **DO NOT** checkmark *Enable Withdrawals*, Mastermind does not support sending and receiving crpyto and could put your wallet at risk if selected
 3. Enter API key and API secrect into Login Page (see below)
-4. Enjoy an all in one platform for all things trading crypto.
+4. Enjoy an all in one platform for all things trading crypto!
 
 ![Mastermind Login Page](https://github.com/Modiodal/Mastermind/blob/master/screenshots/login_screenshot.png)
 
 
 ## Plugins and Presets
 
-Built using [Sam McHardy's](https://github.com/sammchardy) python-binance
+### Built using [Sam McHardy's](https://github.com/sammchardy) python-binance
 
 *Source code*
-   - https://github.com/sammchardy/python-binance
+   https://github.com/sammchardy/python-binance
    
 *Documentation*
-   - https://python-binance.readthedocs.io/en/latest/
+   https://python-binance.readthedocs.io/en/latest/
 
 
-Built on Python 3.7.7
+Built on Python **3.7.7**
 
 ### Presets
 - Graph initially set to show 1-hour of data
