@@ -83,11 +83,17 @@ class LoginPage:
         self.api_secret_entry.grid(row=2, column=1)
         self.remember_checkmark.grid(row=3, columnspan=2)
         self.submit_butt.grid(row=4, columnspan=2)
-
-
+        
+    
+    def exit_app(self):
+        self.newWindow.destroy()
+        self.newWindow.quit()
+        
+        
     def new_window(self):
         self.master.withdraw()
         self.newWindow = tk.Toplevel(self.master)
+        self.newWindow.protocol("WM_DELETE_WINDOW", self.exit_app)
         bb = MainApplication(self.newWindow)
 
 
