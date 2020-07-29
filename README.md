@@ -3,7 +3,7 @@
 
 - 
 
-![Image of Dark Mode on Mastermind](https://github.com/Modiodal/Mastermind/blob/master/screenshots/dark_mode_app.png)
+![Image of Dark Mode on Mastermind](https://github.com/Modiodal/Mastermind/blob/master/screenshots/mastermind_showcase.gif)
 > *Dark Mode* in Mastermind
 
 ## How it works
@@ -23,10 +23,10 @@
 
 ### Built using [Sam McHardy's](https://github.com/sammchardy) python-binance
 
-*Source code: *
+*Source code:*
    https://github.com/sammchardy/python-binance
    
-*Documentation*
+*Documentation:*
    https://python-binance.readthedocs.io/en/latest/
 
 
