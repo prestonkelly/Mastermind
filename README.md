@@ -27,15 +27,11 @@
 
 ## What I Learned
 - Tkinter
-
 - SQLite 
-
 - Object Oriented Programming
-
-- Binance's api
-
+- Binance API's
 - Matplotlib
-
+- Pandas
 
 ## Credits
 ### Built using [Sam McHardy's](https://github.com/sammchardy) python-binance
