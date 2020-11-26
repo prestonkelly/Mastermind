@@ -28,9 +28,13 @@
 ## What I Learned
 - Tkinter
 
+- SQLite 
+
 - Object Oriented Programming
 
 - Binance's api
+
+- Matplotlib
 
 
 ## Credits
