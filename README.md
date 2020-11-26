@@ -25,6 +25,14 @@
 </p>
 
 
+## What I Learned
+- Tkinter
+
+- Object Oriented Programming
+
+- Binance's api
+
+
 ## Credits
 ### Built using [Sam McHardy's](https://github.com/sammchardy) python-binance
 
