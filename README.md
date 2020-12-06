@@ -1,5 +1,5 @@
 # Mastermind ![Mastermind Icon](https://github.com/Modiodal/Mastermind/blob/master/screenshots/favicon_header.png)
-**Mastermind** is a gui for buying, selling and analyzing cryptocurreny. It was created to allow users to trade, without ever logging onto the site. Just enter your API keys once and forget about opening up a browser!
+**Mastermind** is a gui for buying, selling and analyzing cryptocurrency. It was created to allow users to trade, without ever logging onto the site. Just enter your API keys once and forget about opening up a browser!
 
 - Simple and straightforward
 - Supports **BTC**, **ETH** and **USDT** markets
