@@ -9,12 +9,12 @@ constantly==15.1.0
 cryptography==3.3.2
 cycler==0.10.0
 dateparser==0.7.6
-hyperlink==19.0.0
+hyperlink==20.0.1
 idna==2.10
 incremental==17.5.0
 kiwisolver==1.2.0
 matplotlib==3.3.0
-numpy==1.21.0
+numpy==1.19.1
 pandas==1.0.5
 Pillow>=8.1.1
 pyasn1==0.4.8
@@ -31,8 +31,8 @@ requests==2.24.0
 service-identity==18.1.0
 six==1.15.0
 soupsieve==2.0.1
-Twisted==22.2.0
+Twisted==20.3.0
 txaio==20.4.1
 tzlocal==2.1
-urllib3==1.26.5
+urllib3==1.25.10
 zope.interface==5.1.0
