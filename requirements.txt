@@ -31,7 +31,7 @@ requests==2.24.0
 service-identity==18.1.0
 six==1.15.0
 soupsieve==2.0.1
-Twisted==20.3.0
+Twisted==22.1.0
 txaio==20.4.1
 tzlocal==2.1
 urllib3==1.26.5
