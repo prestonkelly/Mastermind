@@ -34,5 +34,5 @@ soupsieve==2.0.1
 Twisted==20.3.0
 txaio==20.4.1
 tzlocal==2.1
-urllib3==1.25.10
+urllib3==1.26.5
 zope.interface==5.1.0
